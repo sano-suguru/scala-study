@@ -10,7 +10,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
 Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
 ```
 
-## sbt REPL
+## sbt REPL起動
 
 ```sh
 sbt console
