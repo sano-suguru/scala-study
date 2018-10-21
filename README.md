@@ -53,7 +53,7 @@ Enter number: 1
 [success] Total time: 7 s, completed 2018/10/21 16:39:08
 ```
 
-`sbt run` という風に sbt を立ち上げずに実行しても同じ結果
+`sbt run` という風に sbt を立ち上げずに実行しても同じ結果  
 sbt を立ち上げたままの方が早い
 
 終了は `exit`
