@@ -1,7 +1,7 @@
 import scala.math.sqrt
 
 object Factorization extends App {
-  var target = 24
+  var target = 510510
   val maxDivisor = sqrt(target).toInt
 
   def factorizationRec(num: Int, divisor: Int, acc: Map[Int, Int]): Map[Int, Int] = {
