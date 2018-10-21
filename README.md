@@ -22,6 +22,10 @@ Welcome to Scala 2.12.7 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_191).
 Type in expressions for evaluation. Or try :help.
 ```
 
+- コードを貼り付ける `:paste`
+- REPL を終了させる `:quit`
+- REPL で宣言した変数や関数などをリセットする `:reset`
+
 ## sbt を立ち上げたままでの実行
 
 ```sh
