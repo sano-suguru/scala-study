@@ -1,7 +1,8 @@
 object PartialSumDFS extends App {
-  val a = Seq(3, 6, -5, 7)
+  val a = Seq(1, 10, 49, 3, 8, 13, 7, 23, 60, -500, 42, 599, 45, -23, 1, 10, 49, 3 , 8, 13)
+
   val n = a.length
-  val k = 8
+  val k = 444
 
   def isMatchAndResult(index: Int, partial: Seq[Int]): (Boolean, Seq[Int]) = {
     // 終了条件
