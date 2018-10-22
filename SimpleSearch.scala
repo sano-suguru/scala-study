@@ -5,7 +5,7 @@ object SimpleSearch extends App {
 
   def search(text: Seq[Char], pattern: Seq[Char]): Seq[Int] = {
     var matchIndexes = Seq[Int]()
-    for (i <- 0 to text.length - 1) {
+    for (i <- 0 until text.length) {
       val partText = text.slice(i, i + pattern.length)
       println(partText)
     }
